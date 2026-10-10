@@ -330,7 +330,7 @@ a {
         transparent,
         rgba(0, 0, 0, 0.4)
     );
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .img_footer img {
@@ -338,7 +338,7 @@ a {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    margin-top: 10px;
+  
 
 }
 
@@ -666,7 +666,7 @@ a {
 
     .img_footer {
         height: 48px;
-        margin-top: 10px;
+        margin-top: 5px;
 
     }
 }
