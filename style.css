@@ -62,6 +62,7 @@ a {
 
 /* TARJETA PRINCIPAL */
 .caja_principal {
+    min-heigth: 100vh;
     position: relative;
     isolation: isolate;
     width: 100%;
