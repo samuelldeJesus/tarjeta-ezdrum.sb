@@ -151,14 +151,11 @@ a {
 /* CONTENIDO COMÚN */
 .contenedor {
     min-width: 0;
-    padding: 20px 30px 25px;
+    padding: 50px;
     background-color: #000000;
 }
 
-.contenedor_portafolio,
-.contenedor_proyectos {
-    margin-top: 20px;
-}
+
 
 .contenido {
     text-align: center;
@@ -342,6 +339,7 @@ a {
 .footer {
     padding-top: 5px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .footer p {
@@ -358,7 +356,8 @@ a {
 .contenedor_proyectos,
 .contenedor_portafolio {
     position: relative;
-    padding: 30px;
+    padding: 50px;
+    margin-top: 20px;
 }
 
 .proyecto_boton {
@@ -563,6 +562,7 @@ a {
     .contenedor_proyectos,
     .contenedor_portafolio {
         padding: 14px clamp(16px, 5vw, 24px) 22px;
+        margin-top: 15px;
     }
 
     .proyecto_boton {
@@ -617,6 +617,7 @@ a {
     .contenedor_portafolio {
         padding-right: 14px;
         padding-left: 14px;
+        margin-top: 15px;
     }
 }
 
