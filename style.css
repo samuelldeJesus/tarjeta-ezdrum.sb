@@ -467,6 +467,7 @@ a {
 @media (min-width: 600px) {
     .caja_principal {
         max-width: 400px;
+        min-heigth: 100vh;
     }
 }
 
