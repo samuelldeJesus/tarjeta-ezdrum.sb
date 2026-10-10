@@ -338,13 +338,13 @@ a {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 
 /* PIE DE PÁGINA */
 .footer {
-    margin-top: 20px;
+    margin-top: 10px;
 
     padding-top: 5px;
     text-align: center;
@@ -352,7 +352,7 @@ a {
 }
 
 .footer p {
-    margin-top: 10px;
+    margin-top: 5px;
     color: #7e7e7e;
     font-size: 8px;
     line-height: 1.5;
@@ -557,7 +557,7 @@ a {
     }
 
     .img_footer {
-        margin-top: 20px;
+        margin-top: 10px;
 
         height: clamp(55px, 9dvh, 85px);
         margin-left: calc(-1 * clamp(16px, 5vw, 24px));
@@ -667,7 +667,7 @@ a {
 
     .img_footer {
         height: 48px;
-        margin-top: 20px;
+        margin-top: 10px;
 
     }
 }
