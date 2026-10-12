@@ -473,10 +473,16 @@ body {
 /* =========================
    Portafolio
 ========================= */
-.proyecto_boton{
+.proyecto_boton-inicio{
     justify-content: center;
-    margin: 30px 0;
+    margin: 50px 0 30px;
 }
+
+.proyecto_boton-contacto{
+    justify-content: center;
+    margin: 30px 0 50px;
+}
+
 .texto_portafolio {
     display: flex;
     flex-direction: column;
