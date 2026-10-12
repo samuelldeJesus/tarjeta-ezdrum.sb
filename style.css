@@ -62,7 +62,6 @@ a {
 
 /* TARJETA PRINCIPAL */
 .caja_principal {
-    min-heigth: 100vh;
     position: relative;
     isolation: isolate;
     width: 100%;
@@ -323,7 +322,7 @@ a {
 .img_footer {
     position: relative;
     height: 100px;
-    margin: 0 -30px;
+    margin: 0 -50px;
     overflow: hidden;
     opacity: 0.55;
     background: linear-gradient(
@@ -331,7 +330,7 @@ a {
         transparent,
         rgba(0, 0, 0, 0.4)
     );
-    margin-top: 10px;
+    margin-top: 0;
 }
 
 .img_footer img {
@@ -339,20 +338,21 @@ a {
     height: 100%;
     object-fit: cover;
     object-position: center;
-  
+    margin-top: 0px;
 
 }
 
 /* PIE DE PÁGINA */
 .footer {
-    margin-top: 10px;
+    margin-top: 00px;
 
     padding-top: 5px;
-    text-align: center;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .footer p {
-    margin-top: 5px;
+    margin-top: 10px;
     color: #7e7e7e;
     font-size: 8px;
     line-height: 1.5;
@@ -467,7 +467,6 @@ a {
 @media (min-width: 600px) {
     .caja_principal {
         max-width: 400px;
-        min-heigth: 100vh;
     }
 }
 
@@ -558,7 +557,7 @@ a {
     }
 
     .img_footer {
-        margin-top: 10px;
+        margin-top: 0px;
 
         height: clamp(55px, 9dvh, 85px);
         margin-left: calc(-1 * clamp(16px, 5vw, 24px));
@@ -596,91 +595,3 @@ a {
     }
 }
 
-/* MÓVILES MUY ESTRECHOS */
-@media (max-width: 350px) {
-    .contenedor {
-        padding-right: 14px;
-        padding-left: 14px;
-    }
-
-    .contacto {
-        gap: 3px;
-    }
-
-    .contacto a {
-        font-size: 8px;
-    }
-
-    .contacto a i {
-        width: 33px;
-        height: 33px;
-        font-size: 13px;
-    }
-
-    .boton {
-        padding-right: 10px;
-        padding-left: 10px;
-        font-size: 11px;
-    }
-
-    .contenedor_proyectos,
-    .contenedor_portafolio {
-        padding-right: 14px;
-        padding-left: 14px;
-    }
-}
-
-/* PANTALLAS BAJAS: compacta un poco los espacios,
-   pero nunca fija la altura ni oculta contenido. */
-@media (max-height: 700px) and (max-width: 430px) {
-    .foto {
-        height: 155px;
-    }
-
-    .perfil {
-        width: 82px;
-        height: 82px;
-    }
-
-    .nombre {
-        margin-top: 42px;
-    }
-
-    .slogan {
-        margin-top: 9px;
-        line-height: 1.4;
-    }
-
-    .contacto {
-        margin-top: 15px;
-        padding-top: 12px;
-        padding-bottom: 14px;
-    }
-
-    .botones {
-        margin-top: 13px;
-        gap: 7px;
-    }
-
-    .boton {
-        min-height: 40px;
-    }
-
-    .img_footer {
-        height: 48px;
-        margin-top: 5px;
-
-    }
-}
-
-/* ACCESIBILIDAD: reduce animaciones si el usuario lo solicita */
-@media (prefers-reduced-motion: reduce) {
-    *,
-    *::before,
-    *::after {
-        scroll-behavior: auto !important;
-        transition-duration: 0.01ms !important;
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-    }
-}
