@@ -459,6 +459,7 @@ body {
 
     overflow: hidden;
     margin: 0 -30px;
+   margin-bottom: 15px;
 }
 
 .img_footer img{
@@ -552,26 +553,18 @@ body {
 ========================= */
 
 .footer {
-
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.392);
+    font-size: 11px;
     text-align: center;
-
-    padding-top: 5px;
+    font-style: italic;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    translate: -50%;
+    padding: 4px 4px;
+    border-radius: 15px;
 }
-
-
-.footer p {
-
-    font-size: 8px;
-
-    letter-spacing: 2.5px;
-
-    font-weight: 400;
-
-    color: #7e7e7e;
-
-    margin-top: 10px;
-}
-
 
 /* =========================
    RESPONSIVE
