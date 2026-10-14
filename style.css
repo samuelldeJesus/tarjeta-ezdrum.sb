@@ -554,15 +554,14 @@ body {
 
 .footer {
     text-decoration: none;
-    color: rgba(128, 128, 128, 0.392);
+    color: rgba(92, 92, 92, 0.607);
     font-size: 11px;
     text-align: center;
     font-style: italic;
     position: absolute;
     bottom: 5px;
-    left: 50%;
-    translate: -50%;
-    padding: 4px 4px;
+    left: 40%;
+    transform:translateX(-30%);
     border-radius: 15px;
 }
 
